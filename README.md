@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Between the Spaces](./practice/sql/between-the-spaces) | SQL | Medium | 2026-10-10 |
 | [The Loudest Neighbor](./practice/sql/the-loudest-neighbor) | SQL | Hard | 2026-10-10 |
 | [Where the Money Sits](./practice/sql/where-the-money-sits) | SQL | Medium | 2026-10-10 |
 | [The Token Census](./practice/sql/the-token-census) | SQL | Easy | 2026-10-10 |
