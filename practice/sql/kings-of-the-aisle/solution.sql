@@ -1,21 +1,24 @@
-WITH product_revenue AS (
-    -- Step 1: Join transactions and products, filter for the current year, and aggregate total sales
-    SELECT 
-        p.category,
-        p.product_name,
-        SUM(t.total_amount) AS total_revenue,
-        -- Step 2: Rank products within each category by revenue in descending order
-        ROW_NUMBER() OVER (PARTITION BY p.category ORDER BY SUM(t.total_amount) DESC) AS rank_num
-    FROM transactions t
-    JOIN products p ON t.product_id = p.product_id
-    WHERE EXTRACT(YEAR FROM t.transaction_date::timestamp) = EXTRACT(YEAR FROM CURRENT_DATE)
-    GROUP BY p.category, p.product_name
+with cte as (
+select 
+  category,
+  product_name,
+  sum(total_amount) as total_revenue
+from transactions as t inner join products as p on
+      t.product_id = p.product_id
+WHERE EXTRACT(YEAR FROM t.transaction_date::timestamp) = EXTRACT(YEAR FROM CURRENT_DATE)
+group by 1, 2),
+cte2 as(
+select
+  category,
+  product_name,
+  total_revenue,
+  row_number() over(partition by category order by total_revenue desc) as rn
+from cte
 )
--- Step 3: Filter for the top product in each category and sort from biggest earner down
-SELECT 
-    category,
-    product_name,
-    total_revenue
-FROM product_revenue
-WHERE rank_num = 1
-ORDER BY total_revenue DESC;
+select
+  category,
+  product_name,
+  total_revenue
+from cte2
+where rn = 1
+order by 3 desc
