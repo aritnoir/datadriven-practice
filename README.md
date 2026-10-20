@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Top Percentile API Tokens](./practice/sql/top-percentile-api-tokens) | SQL | Hard | 2026-10-20 |
 | [Where You Stand](./practice/sql/where-you-stand) | SQL | Medium | 2026-10-19 |
 | [Top Metric Values](./practice/sql/top-metric-values) | SQL | Easy | 2026-10-17 |
 | [Kings of the Aisle](./practice/sql/kings-of-the-aisle) | SQL | Medium | 2026-10-15 |
