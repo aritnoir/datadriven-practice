@@ -26,6 +26,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 | [The Loudest Neighbor](./practice/sql/the-loudest-neighbor) | SQL | Hard | 2026-10-10 |
 | [Where the Money Sits](./practice/sql/where-the-money-sits) | SQL | Medium | 2026-10-10 |
 | [The Token Census](./practice/sql/the-token-census) | SQL | Easy | 2026-10-10 |
+| [Average Accuracy by Framework](./practice/spark/average-accuracy-by-framework) | Spark | Medium | 2026-10-10 |
 | [Average Accuracy by Framework](./practice/sql/average-accuracy-by-framework) | SQL | Medium | 2026-10-10 |
 | [Services at Median Uptime](./practice/spark/services-at-median-uptime) | Spark | Medium | 2026-10-09 |
 | [Footprints in the Feed](./practice/python/footprints-in-the-feed) | Python | Medium | 2026-10-09 |
