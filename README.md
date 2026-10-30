@@ -10,7 +10,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 |---|---|---|---|
 | [Error Category Breakdown](./practice/sql/error-category-breakdown) | SQL | Hard | 2026-10-27 |
 | [Hidden Depths](./practice/python/hidden-depths) | Python | Medium | 2026-10-26 |
-| [Alert Count by Severity Tier](./practice/sql/alert-count-by-severity-tier) | SQL | Easy | 2026-10-26 |
+| [Alert Count by Severity Tier](./practice/sql/alert-count-by-severity-tier) | SQL | Medium | 2026-10-26 |
 | [The Trip Aggregator](./practice/python/the-trip-aggregator) | Python | Medium | 2026-10-25 |
 | [Users With Admin Tokens](./practice/sql/users-with-admin-tokens) | SQL | Medium | 2026-10-25 |
 | [Deployment Duration by Status](./practice/sql/deployment-duration-by-status) | SQL | Easy | 2026-10-23 |
