@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Click-Through by Campaign](./practice/sql/click-through-by-campaign) | SQL | Medium | 2026-11-01 |
 | [Error Category Breakdown](./practice/sql/error-category-breakdown) | SQL | Hard | 2026-10-27 |
 | [Hidden Depths](./practice/python/hidden-depths) | Python | Medium | 2026-10-26 |
 | [Alert Count by Severity Tier](./practice/sql/alert-count-by-severity-tier) | SQL | Medium | 2026-10-26 |
