@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Rating Tiers](./practice/sql/rating-tiers) | SQL | Medium | 2026-11-22 |
 | [Top-Heavy](./practice/python/top-heavy) | Python | Medium | 2026-11-22 |
 | [The Seventh Day](./practice/sql/the-seventh-day) | SQL | Medium | 2026-11-22 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-11-07 |
