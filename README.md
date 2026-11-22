@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/primal_vertex_5967), commi
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Weight of Giants](./practice/sql/the-weight-of-giants) | SQL | Medium | 2026-11-22 |
 | [Top 10 Slowest Endpoints](./practice/sql/top-10-slowest-endpoints) | SQL | Easy | 2026-11-22 |
 | [Rating Tiers](./practice/sql/rating-tiers) | SQL | Medium | 2026-11-22 |
 | [Top-Heavy](./practice/python/top-heavy) | Python | Medium | 2026-11-22 |
